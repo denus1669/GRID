@@ -1,0 +1,59 @@
+.select {
+    background-color: #9A1212;
+    color: white;
+    transform: scale(2);
+    margin-top: 40px;
+}
+
+.select a {
+    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.f-text {
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+    color: #9A1212;
+    margin-right: 30px;
+}
+
+.comp-content {
+    grid-column: 1/3;
+    justify-items: center;
+    width: 80vw;
+}
+
+.top-text {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    align-items: center;
+}
+
+
+.comp-text {
+    font-size: 32px;
+    text-align: right;
+}
+
+.comp-img {
+    position: relative;
+    margin-top: 0;
+    width: 300px;
+    height: 300px;
+}
+    .comp-content {
+        margin-bottom: 20px;
+    }
+
+    .navigation li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: 160px;
+    }
